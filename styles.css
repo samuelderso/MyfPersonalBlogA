@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.doro {
+    border: 2px solid black;
+    height: auto;
+    width: 30%;
+    background-color: rgb(219, 218, 218);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+#dish {
+    border: 2px solid black;
+    border-top: 0;
+    border-right: 0;
+    width: 20%;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 322px;
+    text-align: center;
+
+}
+.red{background-color: aquamarine;}
+.green{background-color: brown;}
+.yellow{background-color: yellow;}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+    .doro {
+        width: 100%;
+    }
+
+    .dish {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .doro {
+        width: 48%;
+    }
+}
+
+@media (min-width: 992px) {}
